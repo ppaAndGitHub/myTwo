@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  compression:
+    enabled: true
+    mime: text/html,image/png,text/plain,text/css,application/javascript,application/json,application/x-font-ttf,application/x-font-otf,image/svg+xml,image/jpeg,image/gif,audio/mpeg,video/mp4
+    min-response-size: 2048
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+#  type-aliases-package: com.newtouch.myspringboot.dao.pojo
