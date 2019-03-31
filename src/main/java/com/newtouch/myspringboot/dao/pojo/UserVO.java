@@ -4,7 +4,6 @@ public class UserVO {
     private int id;
     private String userName;
     private String passwords;
-
     public String getUserName() {
         return userName;
     }

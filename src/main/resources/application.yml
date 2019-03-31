@@ -12,4 +12,4 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
-#  type-aliases-package: com.newtouch.myspringboot.dao.pojo
+  #type-aliases-package: com.newtouch.myspringboot.dao.pojo
